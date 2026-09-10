@@ -45,7 +45,7 @@ const places: Place[] = [
     kind: "coffee",
     neighborhood: "Capitol Hill",
     description: "A warm first pour for a day that starts slowly and gets better as it goes.",
-    image: "/assets/victrola.jpg",
+    image: "assets/victrola.jpg",
     time: "08:30",
     duration: 45,
     x: 40,
@@ -58,7 +58,7 @@ const places: Place[] = [
     kind: "attraction",
     neighborhood: "Waterfront",
     description: "Stalls, signs, and a little delicious chaos—an easy anchor for the middle of the day.",
-    image: "/assets/pike-place-market.jpg",
+    image: "assets/pike-place-market.jpg",
     time: "10:00",
     duration: 75,
     x: 30,
@@ -71,7 +71,7 @@ const places: Place[] = [
     kind: "attraction",
     neighborhood: "Seattle Center",
     description: "A skyline pause with a clean view north, south, and everywhere in between.",
-    image: "/assets/space-needle.jpg",
+    image: "assets/space-needle.jpg",
     time: "12:00",
     duration: 90,
     x: 40,
@@ -84,7 +84,7 @@ const places: Place[] = [
     kind: "attraction",
     neighborhood: "Queen Anne",
     description: "The postcard moment: bring the plan here when the light starts to turn kind.",
-    image: "/assets/kerry-park.jpg",
+    image: "assets/kerry-park.jpg",
     time: "14:15",
     duration: 45,
     x: 33,
@@ -97,7 +97,7 @@ const places: Place[] = [
     kind: "coffee",
     neighborhood: "Capitol Hill",
     description: "A grander coffee stop for when the cup itself becomes part of the outing.",
-    image: "/assets/starbucks-reserve.jpg",
+    image: "assets/starbucks-reserve.jpg",
     time: "15:30",
     duration: 60,
     x: 49,
@@ -110,7 +110,7 @@ const places: Place[] = [
     kind: "coffee",
     neighborhood: "Fremont",
     description: "A neighborhood reset with enough character to make the detour feel intentional.",
-    image: "/assets/caffe-vita.jpg",
+    image: "assets/caffe-vita.jpg",
     time: "09:00",
     duration: 45,
     x: 33,
@@ -123,7 +123,7 @@ const places: Place[] = [
     kind: "coffee",
     neighborhood: "Downtown",
     description: "A dependable downtown breather when the route needs a soft landing.",
-    image: "/assets/caffe-ladro.jpg",
+    image: "assets/caffe-ladro.jpg",
     time: "11:00",
     duration: 40,
     x: 27,
@@ -136,7 +136,7 @@ const places: Place[] = [
     kind: "coffee",
     neighborhood: "Capitol Hill",
     description: "A focused espresso stop for the people who plan their day around the cup.",
-    image: "/assets/espresso-vivace.jpg",
+    image: "assets/espresso-vivace.jpg",
     time: "10:30",
     duration: 40,
     x: 46,
@@ -149,7 +149,7 @@ const places: Place[] = [
     kind: "coffee",
     neighborhood: "Downtown",
     description: "Small, bright, and perfectly placed for a fast shot before the next landmark.",
-    image: "/assets/monorail-espresso.jpg",
+    image: "assets/monorail-espresso.jpg",
     time: "09:45",
     duration: 30,
     x: 29,
@@ -162,7 +162,7 @@ const places: Place[] = [
     kind: "attraction",
     neighborhood: "Seattle Center",
     description: "Color and glass that reward taking the long way through the room.",
-    image: "/assets/chihuly-garden-and-glass.jpg",
+    image: "assets/chihuly-garden-and-glass.jpg",
     time: "13:30",
     duration: 75,
     x: 45,
@@ -175,7 +175,7 @@ const places: Place[] = [
     kind: "attraction",
     neighborhood: "Waterfront",
     description: "A slow turn above the water for a different scale on the city.",
-    image: "/assets/seattle-great-wheel.jpg",
+    image: "assets/seattle-great-wheel.jpg",
     time: "16:00",
     duration: 45,
     x: 25,
@@ -188,7 +188,7 @@ const places: Place[] = [
     kind: "attraction",
     neighborhood: "Fremont",
     description: "A wonderfully odd northbound detour when the itinerary needs a story.",
-    image: "/assets/fremont-troll.jpg",
+    image: "assets/fremont-troll.jpg",
     time: "17:00",
     duration: 30,
     x: 34,
@@ -329,7 +329,7 @@ function App() {
             </a>
           </div>
           <div className="hero-image-wrap">
-            <img src="/assets/space-needle.jpg" alt="The Space Needle rising above Seattle" className="hero-image" />
+            <img src="assets/space-needle.jpg" alt="The Space Needle rising above Seattle" className="hero-image" />
             <div className="hero-image-note">
               <span>Today’s north star</span>
               <strong>Keep one view<br />in the plan.</strong>
@@ -559,7 +559,7 @@ function App() {
 
         <section className="notes-section" id="notes" aria-labelledby="notes-title">
           <div className="notes-photo">
-            <img src="/assets/fremont-troll.jpg" alt="The Fremont Troll beneath a bridge" loading="lazy" />
+            <img src="assets/fremont-troll.jpg" alt="The Fremont Troll beneath a bridge" loading="lazy" />
           </div>
           <div className="notes-copy">
             <span className="eyebrow">Field notes / 01</span>
